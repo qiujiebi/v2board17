@@ -50,7 +50,7 @@ class DeepbworkController extends Controller
             $user->v2ray_user = [
                 "uuid" => $user->uuid,
                 "email" => sprintf("%s@v2board.user", $user->uuid),
-                "alter_id" => 0,
+                "alter_id" => $server->alter_id,
                 "level" => 0,
             ];
             unset($user['uuid']);

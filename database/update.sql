@@ -342,7 +342,7 @@ ALTER TABLE `v2_user`
 DROP `v2ray_alter_id`,
 DROP `v2ray_level`;
 
-DROP TABLE `v2_server_stat`;
+
 
 CREATE TABLE `v2_stat_server` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
